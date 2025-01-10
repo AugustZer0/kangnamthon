@@ -1,0 +1,77 @@
+.book {
+  position: relative;
+  width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  min-height: 400px;
+}
+
+.page {
+  background: white;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  position: relative;
+  padding-bottom: 150px;
+}
+
+.navigation {
+  position: absolute;
+  bottom: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+
+.arrow {
+  background-color: white;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  width: 50px;
+  height: 40px;
+  cursor: pointer;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.arrow.left {
+  position: absolute;
+  left: 20px;
+}
+
+.arrow.right {
+  position: absolute;
+  right: 20px;
+}
+
+.corner-button {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  cursor: pointer;
+}
+
+.left-corner {
+  bottom: 10px;
+  left: 10px;
+  border-width: 0 30px 30px 0;
+  border-color: transparent #ccc transparent transparent;
+}
+
+.right-corner {
+  bottom: 10px;
+  right: 10px;
+  border-width: 30px 0 0 30px;
+  border-color: transparent transparent transparent #ccc;
+}
+
+
+
